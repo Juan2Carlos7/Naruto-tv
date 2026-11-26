@@ -1,882 +1,228 @@
 {
-  "id": "kino-tv-pro-naruto",
-  "name": "Kino TV Pro · Naruto Shippuden",
-  "version": "1.0.5",
-  "apiVersion": 18,
+  "id": "theme-kino-tv-pro-dbs",
+  "name": "Kino TV Pro - Super Aura",
+  "version": "1.0.0",
+  "apiVersion": 26,
   "entry": "plugin.js",
-  "description": "Temas Naruto para Kino TV Pro",
+  "description": "Temas de aura energética para Kino TV Pro: 5 estilos, logo propio, degradados, resplandores, héroe enmarcado y muchas opciones de personalización.",
   "hosts": [],
-  "categories": [
-    "themes"
-  ],
+  "categories": ["themes"],
   "appThemes": [
     {
-      "id": "naruto",
-      "name": {
-        "es": "Naruto Uzumaki",
-        "en": "Naruto Uzumaki"
-      },
+      "id": "super-aura",
+      "name": { "es": "Kino TV Pro - Super Aura", "en": "Kino TV Pro - Super Aura" },
       "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#FF7A00",
-        "onAccent": "#0B0B0B",
-        "background": "#0B1020",
-        "surface": "#1A1612",
-        "surfaceHigh": "#2A221A",
-        "railPanel": "#14100C",
-        "textPrimary": "#FFF4E8",
-        "textSecondary": "#CDB8A0",
-        "focus": "#FFE0B3",
-        "onFocus": "#0B0B0B",
-        "outline": "#3A2E22",
-        "border": "#7A3F10"
+      "colors": { "accent": "#FF8A00", "onAccent": "#1A0A00", "background": "#050B1F", "surface": "#101B3D", "surfaceHigh": "#18285A", "railPanel": "#0B1536", "textPrimary": "#FFF4E0", "textSecondary": "#B9C4E6", "focus": "#FFD23F", "onFocus": "#000000", "outline": "#2D4290", "border": "#FF8A00", "favorite": "#FF5A1F" },
+      "background": { "type": "gradient", "colors": ["#050B1F", "#0A1F5C", "#1A0B2E"], "angle": 160 },
+      "shape": { "cardRadius": 14, "channelRadius": 14, "buttonRadius": 22, "chipRadius": 20, "dialogRadius": 20, "inputRadius": 12, "heroRadius": 20, "railItemRadius": 16, "cardBorder": 1, "dialogBorder": 2, "menuBorder": 1, "headerBorder": 1, "panelBorder": 1 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.6, "dialogShadow": 0.8, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.08, "crossfadeMs": 350, "heroDrift": "on" },
+      "player": { "buttonScale": 1.1, "playButtonScale": 1.3, "seekBarScale": 1.3, "labelScale": 1.0, "buttonShape": "circle" },
+      "style": { "gloss": 0.6 },
+      "layout": { "hero": "framed", "rail": "floating" },
+      "surfaces": {
+        "button": { "fill": { "type": "gradient", "colors": ["#FFB020", "#FF6A00"], "angle": 180 }, "stroke": { "width": 1, "color": "#FFD23F" }, "glow": { "color": "#FF8A00", "radius": 12, "alpha": 0.5 } },
+        "buttonGhost": { "stroke": { "width": 1.5, "color": "#3D6BFF" } },
+        "navActive": { "fill": { "type": "gradient", "colors": ["#FFB020", "#FF6A00"], "angle": 180 }, "glow": { "color": "#FF8A00", "radius": 14, "alpha": 0.6 } },
+        "rail": { "stroke": { "width": 1, "gradient": { "type": "gradient", "colors": ["#FF8A00", "#3D6BFF"], "angle": 180 } } },
+        "iconButton": { "stroke": { "width": 1, "color": "#3D6BFF" } },
+        "card": { "glow": { "color": "#3D6BFF", "radius": 8, "alpha": 0.25 } },
+        "cardFocus": { "stroke": { "width": 2.5, "gradient": { "type": "gradient", "colors": ["#FFD23F", "#FF6A00"], "angle": 135 } }, "glow": { "color": "#FF8A00", "radius": 18, "alpha": 0.65 } },
+        "focus": { "stroke": { "width": 2, "color": "#FFD23F" }, "glow": { "color": "#FFD23F", "radius": 10, "alpha": 0.5 } },
+        "hero": { "stroke": { "width": 2, "gradient": { "type": "gradient", "colors": ["#FF8A00", "#3D6BFF"], "angle": 135 } }, "glow": { "color": "#FF8A00", "radius": 20, "alpha": 0.35 } },
+        "progress": { "fill": { "type": "gradient", "colors": ["#FFD23F", "#FF6A00"], "angle": 0 } }
       },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#0B1020",
-          "#1B1020",
-          "#2A1200"
-        ],
-        "angle": 160
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
+      "logo": {
+        "wordmark": { "size": [242, 32], "paths": [
+          { "d": "M0 0H6V12L16 0H24L13 14L24 30H16L9 18L6 21V30H0Z M30 0H36V30H30Z M42 0H48L58 18V0H64V30H58L48 12V30H42Z M70 0H94V30H70Z M76 6V24H88V6Z M104 0H126V6H118V30H112V6H104Z M130 0H137L142 20L147 0H154L145 30H139Z", "fill": "textPrimary" },
+          { "d": "M166 0H186V18H172V30H166Z M172 6V12H180V6Z M192 0H212V18H206L214 30H207L200 18H198V30H192Z M198 6V12H206V6Z M218 0H242V30H218Z M224 6V24H236V6Z", "fill": "accent" }
+        ] },
+        "mark": { "size": [30, 30], "paths": [
+          { "d": "M15 0A15 15 0 1 1 15 30A15 15 0 1 1 15 0Z", "fill": "accent" },
+          { "d": "M15 6L17.6 12.8L24.8 13.1L19.1 17.6L21.1 24.6L15 20.6L8.9 24.6L10.9 17.6L5.2 13.1L12.4 12.8Z", "fill": "#C8102E" }
+        ] }
       },
       "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#FF7A00",
-            "#FFB000",
-            "#1E90FF",
-            "#FF4D4D",
-            "#6BDB6F",
-            "#B388FF"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#FFE0B3",
-            "#FFB35C",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
+        "colors.accent": { "swatches": ["#FF8A00", "#FFD21F", "#3DDCFF", "#FF5FA2", "#B26BFF", "#7CFF6B"] },
+        "colors.focus": { "swatches": ["#FFD23F", "#FFFFFF", "#3DDCFF", "#FF5FA2"] },
+        "colors.border": { "swatches": ["#FF8A00", "#3D6BFF", "#FFD21F", "#FFFFFF"] },
+        "background": true,
+        "shape.cardRadius": { "min": 0, "max": 28 },
+        "shape.buttonRadius": { "min": 0, "max": 32 },
+        "shape.dialogRadius": { "min": 0, "max": 32 },
+        "shape.heroRadius": { "min": 0, "max": 32 },
+        "shape.cardBorder": { "min": 0, "max": 4 },
+        "shape.panelBorder": { "min": 0, "max": 4 },
+        "typography.scale": { "min": 0.9, "max": 1.3 },
+        "typography.titleScale": { "min": 0.9, "max": 1.3 },
+        "typography.bodyScale": { "min": 0.9, "max": 1.3 },
+        "elevation.cardShadow": { "min": 0, "max": 1 },
+        "elevation.heroScrim": { "min": 0.3, "max": 1 },
+        "motion.focusZoom": { "min": 1, "max": 1.15 },
+        "motion.crossfadeMs": { "min": 0, "max": 800 },
+        "player.buttonScale": { "min": 0.8, "max": 1.4 },
+        "player.playButtonScale": { "min": 0.8, "max": 1.6 },
+        "player.seekBarScale": { "min": 0.8, "max": 2 },
+        "player.labelScale": { "min": 0.85, "max": 1.3 }
       }
     },
     {
-      "id": "akatsuki",
-      "name": {
-        "es": "Akatsuki",
-        "en": "Akatsuki"
-      },
+      "id": "blue-god",
+      "name": { "es": "Kino TV Pro - Dios Azul", "en": "Kino TV Pro - Blue God" },
       "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#FF3B3B",
-        "onAccent": "#0B0B0B",
-        "background": "#050203",
-        "surface": "#170A0C",
-        "surfaceHigh": "#25100F",
-        "railPanel": "#100607",
-        "textPrimary": "#FBEFEF",
-        "textSecondary": "#C9A9A9",
-        "focus": "#FFFFFF",
-        "onFocus": "#0B0B0B",
-        "outline": "#3A1519",
-        "border": "#8A1B20"
+      "colors": { "accent": "#3DDCFF", "onAccent": "#00131A", "background": "#030A1A", "surface": "#0B1A33", "surfaceHigh": "#142A4D", "railPanel": "#071327", "textPrimary": "#EAF9FF", "textSecondary": "#9FB9D6", "focus": "#FFFFFF", "onFocus": "#000000", "outline": "#1F4A7A", "border": "#3DDCFF" },
+      "background": { "type": "gradient", "colors": ["#030A1A", "#06326B", "#0A1A3A"], "angle": 170 },
+      "shape": { "cardRadius": 16, "channelRadius": 16, "buttonRadius": 24, "chipRadius": 20, "dialogRadius": 22, "inputRadius": 14, "heroRadius": 22, "railItemRadius": 18, "cardBorder": 1, "dialogBorder": 2 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.6, "dialogShadow": 0.8, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.08, "crossfadeMs": 350, "heroDrift": "on" },
+      "player": { "buttonScale": 1.1, "playButtonScale": 1.3, "seekBarScale": 1.3, "buttonShape": "circle" },
+      "style": { "gloss": 0.6 },
+      "layout": { "hero": "framed", "rail": "floating" },
+      "surfaces": {
+        "button": { "fill": { "type": "gradient", "colors": ["#7DEBFF", "#1FB5E8"], "angle": 180 }, "glow": { "color": "#3DDCFF", "radius": 12, "alpha": 0.55 } },
+        "navActive": { "fill": { "type": "gradient", "colors": ["#7DEBFF", "#1FB5E8"], "angle": 180 }, "glow": { "color": "#3DDCFF", "radius": 14, "alpha": 0.6 } },
+        "card": { "glow": { "color": "#3DDCFF", "radius": 8, "alpha": 0.22 } },
+        "cardFocus": { "stroke": { "width": 2.5, "color": "#FFFFFF" }, "glow": { "color": "#3DDCFF", "radius": 18, "alpha": 0.7 } },
+        "hero": { "stroke": { "width": 2, "color": "#3DDCFF" }, "glow": { "color": "#3DDCFF", "radius": 20, "alpha": 0.35 } },
+        "progress": { "fill": { "type": "gradient", "colors": ["#7DEBFF", "#1FB5E8"], "angle": 0 } }
       },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#050203",
-          "#1A0508",
-          "#2B060B"
-        ],
-        "angle": 180
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
+      "logo": {
+        "wordmark": { "size": [242, 32], "paths": [
+          { "d": "M0 0H6V12L16 0H24L13 14L24 30H16L9 18L6 21V30H0Z M30 0H36V30H30Z M42 0H48L58 18V0H64V30H58L48 12V30H42Z M70 0H94V30H70Z M76 6V24H88V6Z M104 0H126V6H118V30H112V6H104Z M130 0H137L142 20L147 0H154L145 30H139Z", "fill": "textPrimary" },
+          { "d": "M166 0H186V18H172V30H166Z M172 6V12H180V6Z M192 0H212V18H206L214 30H207L200 18H198V30H192Z M198 6V12H206V6Z M218 0H242V30H218Z M224 6V24H236V6Z", "fill": "accent" }
+        ] },
+        "mark": { "size": [30, 30], "paths": [
+          { "d": "M15 0A15 15 0 1 1 15 30A15 15 0 1 1 15 0Z", "fill": "accent" },
+          { "d": "M15 6L17.6 12.8L24.8 13.1L19.1 17.6L21.1 24.6L15 20.6L8.9 24.6L10.9 17.6L5.2 13.1L12.4 12.8Z", "fill": "#06326B" }
+        ] }
       },
       "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#FF3B3B",
-            "#FF6B6B",
-            "#FFFFFF",
-            "#FFC107",
-            "#E040FB"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#FFFFFF",
-            "#FF8080",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
+        "colors.accent": { "swatches": ["#3DDCFF", "#7CFF6B", "#FF8A00", "#B26BFF"] },
+        "background": true,
+        "shape.cardRadius": { "min": 0, "max": 28 },
+        "typography.scale": { "min": 0.9, "max": 1.3 },
+        "player.buttonScale": { "min": 0.8, "max": 1.4 },
+        "player.seekBarScale": { "min": 0.8, "max": 2 }
       }
     },
     {
-      "id": "sasuke",
-      "name": {
-        "es": "Sasuke · Chidori",
-        "en": "Sasuke · Chidori"
-      },
+      "id": "gold-warrior",
+      "name": { "es": "Kino TV Pro - Guerrero Dorado", "en": "Kino TV Pro - Golden Warrior" },
       "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#9B6BFF",
-        "onAccent": "#0B0B0B",
-        "background": "#07061A",
-        "surface": "#14102A",
-        "surfaceHigh": "#211A3F",
-        "railPanel": "#0E0B22",
-        "textPrimary": "#F3EFFF",
-        "textSecondary": "#BDB3DD",
-        "focus": "#E6D9FF",
-        "onFocus": "#0B0B0B",
-        "outline": "#2E2550",
-        "border": "#5A3FB0"
+      "colors": { "accent": "#FFD21F", "onAccent": "#1A1200", "background": "#0A0700", "surface": "#1C1505", "surfaceHigh": "#2B200A", "railPanel": "#140E02", "textPrimary": "#FFF8DC", "textSecondary": "#CDBF8F", "focus": "#FFFFFF", "onFocus": "#000000", "outline": "#6B5413", "border": "#FFD21F" },
+      "background": { "type": "gradient", "colors": ["#0A0700", "#3A2A00", "#120A00"], "angle": 180 },
+      "shape": { "cardRadius": 12, "channelRadius": 12, "buttonRadius": 20, "chipRadius": 18, "dialogRadius": 18, "inputRadius": 10, "heroRadius": 18, "railItemRadius": 14, "cardBorder": 1, "dialogBorder": 2 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.6, "dialogShadow": 0.8, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.08, "crossfadeMs": 350, "heroDrift": "on" },
+      "player": { "buttonScale": 1.1, "playButtonScale": 1.3, "seekBarScale": 1.3, "buttonShape": "circle" },
+      "style": { "gloss": 0.7 },
+      "layout": { "hero": "framed", "rail": "floating" },
+      "surfaces": {
+        "button": { "fill": { "type": "gradient", "colors": ["#FFE55C", "#FFB300"], "angle": 180 }, "glow": { "color": "#FFD21F", "radius": 12, "alpha": 0.55 } },
+        "navActive": { "fill": { "type": "gradient", "colors": ["#FFE55C", "#FFB300"], "angle": 180 }, "glow": { "color": "#FFD21F", "radius": 14, "alpha": 0.6 } },
+        "card": { "glow": { "color": "#FFB300", "radius": 8, "alpha": 0.2 } },
+        "cardFocus": { "stroke": { "width": 2.5, "color": "#FFFFFF" }, "glow": { "color": "#FFD21F", "radius": 18, "alpha": 0.7 } },
+        "hero": { "stroke": { "width": 2, "color": "#FFD21F" }, "glow": { "color": "#FFD21F", "radius": 20, "alpha": 0.35 } },
+        "progress": { "fill": { "type": "gradient", "colors": ["#FFE55C", "#FFB300"], "angle": 0 } }
       },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#07061A",
-          "#120A2E",
-          "#1E0B3A"
-        ],
-        "angle": 170
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
+      "logo": {
+        "wordmark": { "size": [242, 32], "paths": [
+          { "d": "M0 0H6V12L16 0H24L13 14L24 30H16L9 18L6 21V30H0Z M30 0H36V30H30Z M42 0H48L58 18V0H64V30H58L48 12V30H42Z M70 0H94V30H70Z M76 6V24H88V6Z M104 0H126V6H118V30H112V6H104Z M130 0H137L142 20L147 0H154L145 30H139Z", "fill": "textPrimary" },
+          { "d": "M166 0H186V18H172V30H166Z M172 6V12H180V6Z M192 0H212V18H206L214 30H207L200 18H198V30H192Z M198 6V12H206V6Z M218 0H242V30H218Z M224 6V24H236V6Z", "fill": "accent" }
+        ] },
+        "mark": { "size": [30, 30], "paths": [
+          { "d": "M15 0A15 15 0 1 1 15 30A15 15 0 1 1 15 0Z", "fill": "accent" },
+          { "d": "M15 6L17.6 12.8L24.8 13.1L19.1 17.6L21.1 24.6L15 20.6L8.9 24.6L10.9 17.6L5.2 13.1L12.4 12.8Z", "fill": "#C8102E" }
+        ] }
       },
       "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#9B6BFF",
-            "#FF3B6B",
-            "#00C8FF",
-            "#FFD54F",
-            "#69F0AE"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#E6D9FF",
-            "#C4A5FF",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
+        "colors.accent": { "swatches": ["#FFD21F", "#FF8A00", "#3DDCFF", "#FF5FA2"] },
+        "background": true,
+        "shape.cardRadius": { "min": 0, "max": 28 },
+        "typography.scale": { "min": 0.9, "max": 1.3 },
+        "player.buttonScale": { "min": 0.8, "max": 1.4 },
+        "player.seekBarScale": { "min": 0.8, "max": 2 }
       }
     },
     {
-      "id": "kakashi",
-      "name": {
-        "es": "Kakashi",
-        "en": "Kakashi"
-      },
+      "id": "silver-instinct",
+      "name": { "es": "Kino TV Pro - Instinto Plateado", "en": "Kino TV Pro - Silver Instinct" },
       "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#8EC5FF",
-        "onAccent": "#0B0B0B",
-        "background": "#080C12",
-        "surface": "#131A24",
-        "surfaceHigh": "#1F2937",
-        "railPanel": "#0E141C",
-        "textPrimary": "#EEF4FB",
-        "textSecondary": "#B4C0CE",
-        "focus": "#FFFFFF",
-        "onFocus": "#0B0B0B",
-        "outline": "#2A3646",
-        "border": "#46607E"
+      "colors": { "accent": "#C9D6FF", "onAccent": "#0A1030", "background": "#05060F", "surface": "#12152A", "surfaceHigh": "#1C2140", "railPanel": "#0C0F20", "textPrimary": "#F4F6FF", "textSecondary": "#A8B0D0", "focus": "#FFFFFF", "onFocus": "#000000", "outline": "#3A4272", "border": "#C9D6FF" },
+      "background": { "type": "gradient", "colors": ["#05060F", "#1A2250", "#0A0C1E"], "angle": 180 },
+      "shape": { "cardRadius": 18, "channelRadius": 18, "buttonRadius": 26, "chipRadius": 22, "dialogRadius": 24, "inputRadius": 14, "heroRadius": 24, "railItemRadius": 18, "cardBorder": 1, "dialogBorder": 2 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.5, "dialogShadow": 0.8, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.07, "crossfadeMs": 400, "heroDrift": "on" },
+      "player": { "buttonScale": 1.1, "playButtonScale": 1.3, "seekBarScale": 1.3, "buttonShape": "circle" },
+      "style": { "gloss": 0.5 },
+      "layout": { "hero": "framed", "rail": "floating" },
+      "surfaces": {
+        "button": { "fill": { "type": "gradient", "colors": ["#FFFFFF", "#9FB3E8"], "angle": 180 }, "glow": { "color": "#C9D6FF", "radius": 12, "alpha": 0.5 } },
+        "navActive": { "fill": { "type": "gradient", "colors": ["#FFFFFF", "#9FB3E8"], "angle": 180 }, "glow": { "color": "#C9D6FF", "radius": 14, "alpha": 0.55 } },
+        "cardFocus": { "stroke": { "width": 2.5, "color": "#FFFFFF" }, "glow": { "color": "#9FB3E8", "radius": 18, "alpha": 0.7 } },
+        "hero": { "stroke": { "width": 2, "color": "#C9D6FF" }, "glow": { "color": "#9FB3E8", "radius": 20, "alpha": 0.35 } },
+        "progress": { "fill": { "type": "gradient", "colors": ["#FFFFFF", "#9FB3E8"], "angle": 0 } }
       },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#080C12",
-          "#111A26",
-          "#1C2735"
-        ],
-        "angle": 180
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
+      "logo": {
+        "wordmark": { "size": [242, 32], "paths": [
+          { "d": "M0 0H6V12L16 0H24L13 14L24 30H16L9 18L6 21V30H0Z M30 0H36V30H30Z M42 0H48L58 18V0H64V30H58L48 12V30H42Z M70 0H94V30H70Z M76 6V24H88V6Z M104 0H126V6H118V30H112V6H104Z M130 0H137L142 20L147 0H154L145 30H139Z", "fill": "textPrimary" },
+          { "d": "M166 0H186V18H172V30H166Z M172 6V12H180V6Z M192 0H212V18H206L214 30H207L200 18H198V30H192Z M198 6V12H206V6Z M218 0H242V30H218Z M224 6V24H236V6Z", "fill": "accent" }
+        ] },
+        "mark": { "size": [30, 30], "paths": [
+          { "d": "M15 0A15 15 0 1 1 15 30A15 15 0 1 1 15 0Z", "fill": "accent" },
+          { "d": "M15 6L17.6 12.8L24.8 13.1L19.1 17.6L21.1 24.6L15 20.6L8.9 24.6L10.9 17.6L5.2 13.1L12.4 12.8Z", "fill": "#1A2250" }
+        ] }
       },
       "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#8EC5FF",
-            "#C0C8D0",
-            "#FF6B6B",
-            "#FFD166",
-            "#7CE3B4"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#FFFFFF",
-            "#C2E1FF",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
+        "colors.accent": { "swatches": ["#C9D6FF", "#3DDCFF", "#FF8A00", "#FFD21F"] },
+        "background": true,
+        "shape.cardRadius": { "min": 0, "max": 28 },
+        "typography.scale": { "min": 0.9, "max": 1.3 },
+        "player.buttonScale": { "min": 0.8, "max": 1.4 },
+        "player.seekBarScale": { "min": 0.8, "max": 2 }
       }
     },
     {
-      "id": "rasengan",
-      "name": {
-        "es": "Rasengan",
-        "en": "Rasengan"
-      },
+      "id": "rose-power",
+      "name": { "es": "Kino TV Pro - Poder Rosé", "en": "Kino TV Pro - Rose Power" },
       "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#00C8FF",
-        "onAccent": "#0B0B0B",
-        "background": "#020B14",
-        "surface": "#0A1E2C",
-        "surfaceHigh": "#112E42",
-        "railPanel": "#07161F",
-        "textPrimary": "#EAF9FF",
-        "textSecondary": "#A9C7D6",
-        "focus": "#CFF5FF",
-        "onFocus": "#0B0B0B",
-        "outline": "#15384D",
-        "border": "#0F6F8F"
+      "colors": { "accent": "#FF5FA2", "onAccent": "#1A0010", "background": "#12030D", "surface": "#2A0A1E", "surfaceHigh": "#3D1030", "railPanel": "#1E0716", "textPrimary": "#FFEAF3", "textSecondary": "#D6A3BE", "focus": "#FFFFFF", "onFocus": "#000000", "outline": "#7A2A58", "border": "#FF5FA2" },
+      "background": { "type": "gradient", "colors": ["#12030D", "#4A0F35", "#1A0620"], "angle": 170 },
+      "shape": { "cardRadius": 16, "channelRadius": 16, "buttonRadius": 24, "chipRadius": 20, "dialogRadius": 22, "inputRadius": 14, "heroRadius": 22, "railItemRadius": 18, "cardBorder": 1, "dialogBorder": 2 },
+      "typography": { "scale": 1.05, "titleScale": 1.1, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.6, "dialogShadow": 0.8, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.08, "crossfadeMs": 350, "heroDrift": "on" },
+      "player": { "buttonScale": 1.1, "playButtonScale": 1.3, "seekBarScale": 1.3, "buttonShape": "circle" },
+      "style": { "gloss": 0.6 },
+      "layout": { "hero": "framed", "rail": "floating" },
+      "surfaces": {
+        "button": { "fill": { "type": "gradient", "colors": ["#FF9ACB", "#E0357F"], "angle": 180 }, "glow": { "color": "#FF5FA2", "radius": 12, "alpha": 0.55 } },
+        "navActive": { "fill": { "type": "gradient", "colors": ["#FF9ACB", "#E0357F"], "angle": 180 }, "glow": { "color": "#FF5FA2", "radius": 14, "alpha": 0.6 } },
+        "cardFocus": { "stroke": { "width": 2.5, "color": "#FFFFFF" }, "glow": { "color": "#FF5FA2", "radius": 18, "alpha": 0.7 } },
+        "hero": { "stroke": { "width": 2, "color": "#FF5FA2" }, "glow": { "color": "#FF5FA2", "radius": 20, "alpha": 0.35 } },
+        "progress": { "fill": { "type": "gradient", "colors": ["#FF9ACB", "#E0357F"], "angle": 0 } }
       },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#020B14",
-          "#04243A",
-          "#063A52"
-        ],
-        "angle": 200
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
+      "logo": {
+        "wordmark": { "size": [242, 32], "paths": [
+          { "d": "M0 0H6V12L16 0H24L13 14L24 30H16L9 18L6 21V30H0Z M30 0H36V30H30Z M42 0H48L58 18V0H64V30H58L48 12V30H42Z M70 0H94V30H70Z M76 6V24H88V6Z M104 0H126V6H118V30H112V6H104Z M130 0H137L142 20L147 0H154L145 30H139Z", "fill": "textPrimary" },
+          { "d": "M166 0H186V18H172V30H166Z M172 6V12H180V6Z M192 0H212V18H206L214 30H207L200 18H198V30H192Z M198 6V12H206V6Z M218 0H242V30H218Z M224 6V24H236V6Z", "fill": "accent" }
+        ] },
+        "mark": { "size": [30, 30], "paths": [
+          { "d": "M15 0A15 15 0 1 1 15 30A15 15 0 1 1 15 0Z", "fill": "accent" },
+          { "d": "M15 6L17.6 12.8L24.8 13.1L19.1 17.6L21.1 24.6L15 20.6L8.9 24.6L10.9 17.6L5.2 13.1L12.4 12.8Z", "fill": "#4A0F35" }
+        ] }
       },
       "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#00C8FF",
-            "#3D8BFF",
-            "#9B8CFF",
-            "#00E5A0",
-            "#FFFFFF"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#CFF5FF",
-            "#7FE3FF",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
-      }
-    },
-    {
-      "id": "konoha",
-      "name": {
-        "es": "Aldea de la Hoja",
-        "en": "Hidden Leaf"
-      },
-      "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#6BDB6F",
-        "onAccent": "#0B0B0B",
-        "background": "#050E07",
-        "surface": "#0F1C12",
-        "surfaceHigh": "#18301D",
-        "railPanel": "#0A140C",
-        "textPrimary": "#EFFAF0",
-        "textSecondary": "#A9C4AC",
-        "focus": "#D4FAD6",
-        "onFocus": "#0B0B0B",
-        "outline": "#1F3B25",
-        "border": "#2E7D32"
-      },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#050E07",
-          "#0B2410",
-          "#123A1A"
-        ],
-        "angle": 175
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
-      },
-      "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#6BDB6F",
-            "#C6E83A",
-            "#FF8F00",
-            "#26C6DA",
-            "#FF5252"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#D4FAD6",
-            "#A5EFA7",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
-      }
-    },
-    {
-      "id": "sabio",
-      "name": {
-        "es": "Modo Sabio",
-        "en": "Sage Mode"
-      },
-      "experience": "full",
-      "pluginColors": "respect",
-      "colors": {
-        "accent": "#F2B33D",
-        "onAccent": "#0B0B0B",
-        "background": "#120C04",
-        "surface": "#1E1609",
-        "surfaceHigh": "#2F2210",
-        "railPanel": "#150F06",
-        "textPrimary": "#FFF6E3",
-        "textSecondary": "#D0BE98",
-        "focus": "#FFE9B0",
-        "onFocus": "#0B0B0B",
-        "outline": "#47341A",
-        "border": "#8C6420"
-      },
-      "background": {
-        "type": "gradient",
-        "colors": [
-          "#120C04",
-          "#2A1B06",
-          "#3D2808"
-        ],
-        "angle": 165
-      },
-      "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
-        "buttonRadius": 22,
-        "chipRadius": 20,
-        "dialogRadius": 20,
-        "inputRadius": 12,
-        "dialogBorder": 1.5,
-        "menuBorder": 1,
-        "headerBorder": 1,
-        "cardBorder": 1,
-        "panelBorder": 1
-      },
-      "typography": {
-        "scale": 1.05,
-        "titleScale": 1.1,
-        "bodyScale": 1.0
-      },
-      "elevation": {
-        "cardShadow": 0.6,
-        "dialogShadow": 0.7,
-        "heroScrim": 0.7
-      },
-      "motion": {
-        "focusZoom": 1.06,
-        "crossfadeMs": 300,
-        "heroDrift": "on"
-      },
-      "player": {
-        "buttonScale": 1.1,
-        "playButtonScale": 1.2,
-        "seekBarScale": 1.2,
-        "labelScale": 1.0,
-        "buttonShape": "circle"
-      },
-      "tv": {
-        "typography": {
-          "scale": 1.0
-        }
-      },
-      "adjustable": {
-        "colors.accent": {
-          "swatches": [
-            "#F2B33D",
-            "#FF7A00",
-            "#FF6A33",
-            "#8BC34A",
-            "#26C6DA"
-          ]
-        },
-        "colors.focus": {
-          "swatches": [
-            "#FFFFFF",
-            "#FFE9B0",
-            "#FFD98A",
-            "#FFD54F"
-          ]
-        },
-        "shape.cardRadius": {
-          "min": 0,
-          "max": 24
-        },
-        "shape.buttonRadius": {
-          "min": 0,
-          "max": 32
-        },
-        "shape.cardBorder": {
-          "min": 0,
-          "max": 3
-        },
-        "typography.scale": {
-          "min": 0.9,
-          "max": 1.25
-        },
-        "elevation.cardShadow": {
-          "min": 0,
-          "max": 1
-        },
-        "motion.focusZoom": {
-          "min": 1.0,
-          "max": 1.12
-        },
-        "player.buttonScale": {
-          "min": 0.9,
-          "max": 1.3
-        },
-        "player.seekBarScale": {
-          "min": 0.9,
-          "max": 1.8
-        },
-        "background": true
+        "colors.accent": { "swatches": ["#FF5FA2", "#B26BFF", "#FF8A00", "#3DDCFF"] },
+        "background": true,
+        "shape.cardRadius": { "min": 0, "max": 28 },
+        "typography.scale": { "min": 0.9, "max": 1.3 },
+        "player.buttonScale": { "min": 0.8, "max": 1.4 },
+        "player.seekBarScale": { "min": 0.8, "max": 2 }
       }
     }
   ]
