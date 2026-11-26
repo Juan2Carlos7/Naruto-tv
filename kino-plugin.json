@@ -1,7 +1,7 @@
 {
   "id": "kino-tv-pro-naruto",
   "name": "Kino TV Pro · Naruto Shippuden",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Temas Naruto para Kino TV Pro",
