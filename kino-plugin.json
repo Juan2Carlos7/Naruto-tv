@@ -2,22 +2,13 @@
   "id": "kino-tv-pro-naruto",
   "name": "Kino TV Pro · Naruto Shippuden",
   "version": "1.0.1",
-  "apiVersion": 26,
+  "apiVersion": 18,
   "entry": "plugin.js",
-  "description": "7 temas ninja para Kino TV Pro: fondos degradados, logo propio, brillos y personalización",
+  "description": "Temas Naruto para Kino TV Pro",
   "hosts": [],
   "categories": [
     "themes"
   ],
-  "capabilities": [
-    "screen"
-  ],
-  "screen": {
-    "label": "Temas Kino TV Pro",
-    "labelEn": "Kino TV Pro themes",
-    "icon": "magic",
-    "menuOpens": "screen"
-  },
   "appThemes": [
     {
       "id": "naruto",
@@ -57,8 +48,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -86,107 +75,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#FFB35C",
-              "#FF7A00"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#FFB35C"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#FF7A00"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#FF7A00",
-              "#FFB35C"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#FFE0B3"
-          },
-          "glow": {
-            "color": "#FF7A00",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#7A3F10"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#FF7A00",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFE0B3"
-          },
-          "glow": {
-            "color": "#FF7A00",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFE0B3"
-          },
-          "glow": {
-            "color": "#FF7A00",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#FF7A00",
-                "#FFB35C"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#FF7A00",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
@@ -323,8 +211,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -352,107 +238,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#FF8080",
-              "#FF3B3B"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#FF8080"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#FF3B3B"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#FF3B3B",
-              "#FF8080"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#FFFFFF"
-          },
-          "glow": {
-            "color": "#FF3B3B",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#8A1B20"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#FF3B3B",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFFFFF"
-          },
-          "glow": {
-            "color": "#FF3B3B",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFFFFF"
-          },
-          "glow": {
-            "color": "#FF3B3B",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#FF3B3B",
-                "#FF8080"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#FF3B3B",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
@@ -588,8 +373,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -617,107 +400,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#C4A5FF",
-              "#9B6BFF"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#C4A5FF"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#9B6BFF"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#9B6BFF",
-              "#C4A5FF"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#E6D9FF"
-          },
-          "glow": {
-            "color": "#9B6BFF",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#5A3FB0"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#9B6BFF",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#E6D9FF"
-          },
-          "glow": {
-            "color": "#9B6BFF",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#E6D9FF"
-          },
-          "glow": {
-            "color": "#9B6BFF",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#9B6BFF",
-                "#C4A5FF"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#9B6BFF",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
@@ -853,8 +535,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -882,107 +562,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#C2E1FF",
-              "#8EC5FF"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#C2E1FF"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#8EC5FF"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#8EC5FF",
-              "#C2E1FF"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#FFFFFF"
-          },
-          "glow": {
-            "color": "#8EC5FF",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#46607E"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#8EC5FF",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFFFFF"
-          },
-          "glow": {
-            "color": "#8EC5FF",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFFFFF"
-          },
-          "glow": {
-            "color": "#8EC5FF",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#8EC5FF",
-                "#C2E1FF"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#8EC5FF",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
@@ -1118,8 +697,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -1147,107 +724,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#7FE3FF",
-              "#00C8FF"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#7FE3FF"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#00C8FF"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#00C8FF",
-              "#7FE3FF"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#CFF5FF"
-          },
-          "glow": {
-            "color": "#00C8FF",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#0F6F8F"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#00C8FF",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#CFF5FF"
-          },
-          "glow": {
-            "color": "#00C8FF",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#CFF5FF"
-          },
-          "glow": {
-            "color": "#00C8FF",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#00C8FF",
-                "#7FE3FF"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#00C8FF",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
@@ -1383,8 +859,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -1412,107 +886,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#A5EFA7",
-              "#6BDB6F"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#A5EFA7"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#6BDB6F"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#6BDB6F",
-              "#A5EFA7"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#D4FAD6"
-          },
-          "glow": {
-            "color": "#6BDB6F",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#2E7D32"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#6BDB6F",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#D4FAD6"
-          },
-          "glow": {
-            "color": "#6BDB6F",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#D4FAD6"
-          },
-          "glow": {
-            "color": "#6BDB6F",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#6BDB6F",
-                "#A5EFA7"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#6BDB6F",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
@@ -1648,8 +1021,6 @@
         "chipRadius": 20,
         "dialogRadius": 20,
         "inputRadius": 12,
-        "heroRadius": 20,
-        "railItemRadius": 14,
         "dialogBorder": 1.5,
         "menuBorder": 1,
         "headerBorder": 1,
@@ -1677,107 +1048,6 @@
         "seekBarScale": 1.2,
         "labelScale": 1.0,
         "buttonShape": "circle"
-      },
-      "style": {
-        "gloss": 0.55
-      },
-      "layout": {
-        "hero": "framed",
-        "rail": "floating"
-      },
-      "surfaces": {
-        "button": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#FFD98A",
-              "#F2B33D"
-            ],
-            "angle": 180
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#FFD98A"
-          }
-        },
-        "buttonGhost": {
-          "stroke": {
-            "width": 1,
-            "color": "#F2B33D"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#F2B33D",
-              "#FFD98A"
-            ],
-            "angle": 90
-          },
-          "stroke": {
-            "width": 1.5,
-            "color": "#FFE9B0"
-          },
-          "glow": {
-            "color": "#F2B33D",
-            "radius": 10,
-            "alpha": 0.55
-          }
-        },
-        "rail": {
-          "stroke": {
-            "width": 1,
-            "color": "#8C6420"
-          }
-        },
-        "card": {
-          "glow": {
-            "color": "#F2B33D",
-            "radius": 8,
-            "alpha": 0.18
-          }
-        },
-        "cardFocus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFE9B0"
-          },
-          "glow": {
-            "color": "#F2B33D",
-            "radius": 14,
-            "alpha": 0.5
-          }
-        },
-        "focus": {
-          "stroke": {
-            "width": 2,
-            "color": "#FFE9B0"
-          },
-          "glow": {
-            "color": "#F2B33D",
-            "radius": 10,
-            "alpha": 0.4
-          }
-        },
-        "hero": {
-          "stroke": {
-            "width": 2,
-            "gradient": {
-              "type": "gradient",
-              "colors": [
-                "#F2B33D",
-                "#FFD98A"
-              ],
-              "angle": 135
-            }
-          },
-          "glow": {
-            "color": "#F2B33D",
-            "radius": 16,
-            "alpha": 0.35
-          }
-        }
       },
       "tv": {
         "typography": {
